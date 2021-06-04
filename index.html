@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapStore || Big-B Development</title>
+    <link rel="icon" href="download (2).jpg" type="image/icon type">
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet"
+     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
+ <script src="cart.js" async></script>
+ 
+ 
+</head>
+<body>
+    <div class="container1">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index2.html"><img src="img\ab9ff5ce9c02460dbc3ad5ab6f1eae1b.png" width="125px"height="50px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li> <a href="#home">Home</a></li>
+                    <li> <a href="#product">Products</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <li> <a href="#account">Account</a></li>
+                    <li><a href="#cart"><img src="—Pngtree—shopping cart icon_4436010.png" style="padding-top: 5px;" width="30px" height="25px" ></a></li>
+                </ul>
+            </nav>
+            <div class="img">
+            
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()"></div>
+     </div>
+    </div>
+
+    <script src="js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_SlideoTransitions = [
+              [{b:-1,d:1,ls:0.5},{b:0,d:1000,y:5,e:{y:6}}],
+              [{b:-1,d:1,ls:0.5},{b:200,d:1000,y:25,e:{y:6}}],
+              [{b:-1,d:1,ls:0.5},{b:400,d:1000,y:45,e:{y:6}}],
+              [{b:-1,d:1,ls:0.5},{b:600,d:1000,y:65,e:{y:6}}],
+              [{b:-1,d:1,ls:0.5},{b:800,d:1000,y:85,e:{y:6}}],
+              [{b:-1,d:1,ls:0.5},{b:500,d:1000,y:195,e:{y:6}}],
+              [{b:0,d:2000,y:30,e:{y:3}}],
+              [{b:-1,d:1,rY:-15,tZ:100},{b:0,d:1500,y:30,o:1,e:{y:3}}],
+              [{b:-1,d:1,rY:-15,tZ:-100},{b:0,d:1500,y:100,o:0.8,e:{y:3}}],
+              [{b:500,d:1500,o:1}],
+              [{b:0,d:1000,y:380,e:{y:6}}],
+              [{b:300,d:1000,x:80,e:{x:6}}],
+              [{b:300,d:1000,x:330,e:{x:6}}],
+              [{b:-1,d:1,r:-110,sX:5,sY:5},{b:0,d:2000,o:1,r:-20,sX:1,sY:1,e:{o:6,r:6,sX:6,sY:6}}],
+              [{b:0,d:600,x:150,o:0.5,e:{x:6}}],
+              [{b:0,d:600,x:1140,o:0.6,e:{x:6}}],
+              [{b:-1,d:1,sX:5,sY:5},{b:600,d:600,o:1,sX:1,sY:1,e:{sX:3,sY:3}}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $LazyLoading: 1,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$,
+                $SpacingX: 20,
+                $SpacingY: 20
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 1600;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300italic,regular,italic,700,700italic&subset=latin-ext,greek-ext,cyrillic-ext,greek,vietnamese,latin,cyrillic" rel="stylesheet" type="text/css" />
+    <style>
+        /* jssor slider loading skin spin css */
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from {
+                transform: rotate(0deg);
+            }
+
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        /*jssor slider bullet skin 132 css*/
+        .jssorb132 {position:absolute;}
+        .jssorb132 .i {position:absolute;cursor:pointer;}
+        .jssorb132 .i .b {fill:#fff;fill-opacity:0.8;stroke:#000;stroke-width:1600;stroke-miterlimit:10;stroke-opacity:0.7;}
+        .jssorb132 .i:hover .b {fill:#000;fill-opacity:.7;stroke:#fff;stroke-width:2000;stroke-opacity:0.8;}
+        .jssorb132 .iav .b {fill:#000;stroke:#fff;stroke-width:2400;fill-opacity:0.8;stroke-opacity:1;}
+        .jssorb132 .i.idn {opacity:0.3;}
+
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+    </style>
+    <svg viewbox="0 0 0 0" width="0" height="0" style="display:block;position:relative;left:0px;top:0px;">
+        <defs>
+            <filter id="jssor_1_flt_1" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stddeviation="4"></feGaussianBlur>
+            </filter>
+            <radialGradient id="jssor_1_grd_2">
+                <stop offset="0" stop-color="#fff"></stop>
+                <stop offset="1" stop-color="#000"></stop>
+            </radialGradient>
+            <mask id="jssor_1_msk_3">
+                <path fill="url(#jssor_1_grd_2)" d="M600,0L600,400L0,400L0,0Z" x="0" y="0" style="position:absolute;overflow:visible;"></path>
+            </mask>
+        </defs>
+    </svg>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1600px;height:560px;overflow:hidden;visibility:hidden;z-index: -1;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1600px;height:560px;overflow:hidden;">
+            <div style="background-color:#470247;">
+                <img data-u="image" style="opacity:0.8;" data-src="A5.jpg" />
+                <div data-ts="flat" data-p="1080" style="left:0px;top:0px;width:1600px;height:560px;position:absolute;">
+                    <svg viewbox="0 0 600 400" data-ts="preserve-3d" width="600" height="400" data-tchd="jssor_1_msk_3" style="left:255px;top:0px;display:block;position:absolute;overflow:visible;">
+                        <g mask="url(#jssor_1_msk_3)">
+                            <path data-to="300px -180px" fill="none" stroke="rgba(250,251,252,0.5)" stroke-width="20" d="M410-350L410-10L190-10L190-350Z" x="190" y="-350" data-t="10" style="position:absolute;overflow:visible;"></path>
+                        </g>
+                    </svg>
+                    <svg viewbox="0 0 800 72" data-to="50% 50%" width="800" height="72" data-t="11" style="left:-800px;top:78px;display:block;position:absolute;font-family:'Roboto Condensed',sans-serif;font-size:84px;font-weight:900;overflow:visible;">
+                        <text fill="black" text-anchor="middle" x="400" y="72">realme X7
+                        </text>
+                    </svg>
+                    <svg viewbox="0 0 800 72" data-to="50% 50%" width="800" height="72" data-t="12" style="left:1600px;top:153px;display:block;position:absolute;font-family:'Roboto Condensed',sans-serif;font-size:60px;font-weight:900;overflow:visible;">
+                        <text fill="#fafbfc" text-anchor="middle" x="400" y="72">Future at Full Speed
+                        </text>
+                    </svg>
+                </div>
+            </div>
+            <div>
+                <img data-u="image" data-src="img/a1.jpg" />
+                <div data-ts="flat" data-p="540" data-po="40% 50%" style="left:0px;top:0px;width:1600px;height:560px;position:absolute;">
+                    <div data-to="50% 50%" data-ts="preserve-3d" data-t="6" style="left:350px;top:360px;width:900px;height:500px;position:absolute;">
+                        
+                    </div>
+                </div>
+            </div>
+            <div style="background-color:#000000;">
+                <img data-u="image" style="opacity:0.8;" data-src="m41.jpg" />
+                <div data-ts="flat" data-p="1080" style="left:0px;top:0px;width:1600px;height:560px;position:absolute;">
+                    `
+                        
+                </div>
+            </div>
+            <div>
+                <img data-u="image" data-src="img\dddd162111111111111111111111112348638281.jpg" />
+                <div data-ts="flat" data-p="1080" style="left:0px;top:0px;width:1600px;height:560px;position:absolute;">
+                    <div data-to="50% 50%" data-t="13" style="left:100px;top:-20px;width:800px;height:200px;position:absolute;opacity:0;">
+                        
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img data-u="image" data-src="img/a3.jpg" />
+                <div data-ts="flat" data-p="1080" style="left:0px;top:0px;width:1600px;height:560px;position:absolute;">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb132" style="position:absolute;bottom:24px;right:16px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:12px;height:12px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
+    <div class="div">
+    <marquee scrollamount="10" > <span class="b"><p class="a"style="font-family:Palatino, serif;">“We’re in Business to Improve Lives”</p></span></marquee></div>
+
+    <video id="video1" width="100%" height="440" controls style="background-color: #000;">
+        <source src="img\R330_16_9HD_1.mp4" type="video/mp4">
+        
+      </video>
+      <div id="product">
+        <div class="categories">
+            <div class="small-container">
+                <h2 class="title">Trending in Earbuds</h2>
+            <div class="row">
+                <div class="col-3">
+                    <a href=""><img src="img\AD441-_MASABA_540x.jpg"></a>
+                </div>
+                <div class="col-3">
+                    <a href=""><img src="img\Airdopes-441Pro_540x.jpg"></a>
+                </div>
+                <div class="col-3">
+                    <a href=""><img src="img\Trending-Products_511V2_540x.jpg"></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <section class="small-container" style="background-color: #0c0c0c;">
+            <h2 class="title">snapStore Exclusive</h2>
+            <div class="row">
+                <div class="col-4" style="background-color: #343434;">
+                    <span class="shop-item-title">Neo Air-Buds Cover</span>
+                    <img class="shop-item-image" src="img\1591696182532.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$399.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Adventure Backpack</span>
+                    <img class="shop-item-image" src="img\1591953520295.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1499.00</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Classic Watch Strap</span>
+                    <img class="shop-item-image" src="img\1592538877054.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$499.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Game Finger Sleeve</span>
+                    <img class="shop-item-image" src="img\1614056118929.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$129.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="small-container" >
+            <h2 class="title">Best-Sellers</h2>
+            <div class="row">
+                <div class="col-4" style="background-color: #343434;">
+                    <span class="shop-item-title">BOAT Storm</span>
+                    <img class="shop-item-image" src="img\rockerz-255-red_ea4e742b-865c-485c-9e48-99d3df7a7c99_720x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Rockerz 255</span>
+                    <img class="shop-item-image" src="img\stone-1500-red_720x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1199.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Stone 1500</span>
+                    <img class="shop-item-image" src="img\storm-blue_720x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$5999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+            </div>
+        </section>
+    
+        <section class="small-container" style="background-color: #0c0c0c;" >
+            <h2 class="title">Smart Watches</h2>
+            <div class="row">
+                <div class="col-4" style="background-color: #343434;">
+                    <span class="shop-item-title">Snap Storm</span>
+                    <img class="shop-item-image" src="img/q1enigma-black_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Xplorer 98</span>
+                    <img class="shop-item-image" src="img/q21_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$3999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Captain 120</span>
+                    <img class="shop-item-image" src="img/q3storm-grey-main_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1599.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4" style="background-color: #343434;">
+                    <span class="shop-item-title">ProGear B20</span>
+                    <img class="shop-item-image" src="img/q4boat-progear-b20-blue_4d1dfff4-44eb-41b1-bf46-04fcdd5bc20c_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1799.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Watch Flash</span>
+                    <img class="shop-item-image" src="img/q5main3_6b20915e-e803-422a-b781-ffd31f1ba301_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Enigma 121</span>
+                    <img class="shop-item-image" src="img/q6p_06_watch_reds@2x-e6f90e83f4.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+            </div>
+        </section>
+    
+    <video  id="video2" width="100%" height="440" controls style="background-color: #000; margin-top: 50px; margin-bottom: 50px;" >
+        <source src="img\realme-watch-10s-new-bce5533e47.mp4" type="video/mp4">   
+        </video>
+
+        <section class="small-container" style="background-color: #0c0c0c;" >
+            <h2 class="title">HeadPhones & AirBuds</h2>
+            <div class="row">
+                <div class="col-4" style="background-color: #343434;">
+                    <span class="shop-item-title">BassHead 225</span>
+                    <img class="shop-item-image" src="img/h1bassheads-242-yellowgreen_3ad5868a-6bb9-418c-ba81-751124dbe1a8_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$549.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">BassHead 200</span>
+                    <img class="shop-item-image" src="img/h2bassheads-100-rcb_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$699.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">BassHead 305</span>
+                    <img class="shop-item-image" src="img/h3grn_1d50c0b3-5b2f-4ba1-a6eb-c138495485a2_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$550.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">BassHead 325</span>
+                    <img class="shop-item-image" src="img/h4bassheads-172-black-with-hd-sound_7aa5b096-c813-4a5e-a3d7-89dccdcbf287_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$820.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4" style="background-color: #343434;">
+                    <span class="shop-item-title">Rockerz 450</span>
+                    <img class="shop-item-image" src="img/h5wht1_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Rockerz 320</span>
+                    <img class="shop-item-image" src="img/h6rockerz-400-red_720x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1699.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Rockerz 250</span>
+                    <img class="shop-item-image" src="img/h7rockerz-450-blue_720x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Rockerz Pro</span>
+                    <img class="shop-item-image" src="img/h8rockerz-550-red_720x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$5500.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4" style="background-color: #343434;">
+                    <span class="shop-item-title">Airdope 441Pro</span>
+                    <img class="shop-item-image" src="img/p1airdopes-441-pro-red_720x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$2599.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Airdope 381</span>
+                    <img class="shop-item-image" src="img/p2airdopes-381-blue_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Airdope 501</span>
+                    <img class="shop-item-image" src="img/p3airdopes-501-red_300x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$1699.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Airdope 511</span>
+                    <img class="shop-item-image" src="img/p4main3_720x.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+            </div>
+        </section>
+        
+        <div class="offer">
+            <div class="small-container">
+                <center><h1>NEO-BUDS</h1></center>
+                <div class="row">
+                    
+                    <div class="col-2">
+                        <video  width="90%" height="150%" style="margin-right: 50px;" controls>
+                            <source src="img\1619691187273.mp4" type="video/mp4">   
+                            </video>
+                    </div>
+                    <div class="col-2" >
+                        <center>
+                        
+                        <img src="img\Banner3-product3_2519028b-28ab-4860-b7ba-9b97502b78f1.png" class="offer-img">
+                        
+                    </center>
+                    </div>
+                </div>
+                <center><a href="" class="btn">Buy Now</a></center>
+            </div>
+        </div>
+        
+
+        <section class="small-container" style="background-color: #0c0c0c;" >
+            <h2 class="title">Smartphones</h2>
+            <div class="row">
+                <div class="col-4" style="background-color: #343434;">
+                    <span class="shop-item-title">Realme C1</span>
+                    <img class="shop-item-image" src="101.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$5999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Realme C2-Pro</span>
+                    <img class="shop-item-image" src="102.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$11699</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Realme C3</span>
+                    <img class="shop-item-image" src="103.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$7699.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Realme 6i</span>
+                    <img class="shop-item-image" src="104.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$6999.00</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4" style="background-color: #343434;">
+                    <span class="shop-item-title">Narzo N21</span>
+                    <img class="shop-item-image" src="201.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19999</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Narzo 10+</span>
+                    <img class="shop-item-image" src="202.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$13000</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Narzo M20</span>
+                    <img class="shop-item-image" src="203.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$11999</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">Narzo 7S</span>
+                    <img class="shop-item-image" src="204.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$16999</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4" style="background-color: #343434;">
+                    <span class="shop-item-title">X7 Max 5G</span>
+                    <img class="shop-item-image" src="301.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$19999</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">X7 Pro</span>
+                    <img class="shop-item-image" src="302.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$26999</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">X3 Xclusive</span> 
+                    <img class="shop-item-image" src="303.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$16999</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+                <div class="col-4"style="background-color: #343434;">
+                    <span class="shop-item-title">X8 Quadric</span>
+                    <img class="shop-item-image" src="304.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">$23999</span><br>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+               
+                </div>
+            </div>
+        </section>
+        <div class="categories">
+            <div class="small-container" >
+               
+            <div class="row1">
+                <div class="col-31">
+                    <a href=""><img src="Capture1.JPG"></a>
+                </div>
+                <div class="col-32" >
+                    <a href=""><img src="Capture2.JPG"></a>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="col-32" >
+                    <a href=""><img src="Capture3.JPG"></a>
+                </div>
+                <div class="col-31">
+                    <a href=""><img src="Capture4.JPG"></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        
+ </div>
+
+ 
+<section class="small-container"  >
+    <h2 class="title">Special Offers</h2>
+    <div class="row">
+        <div class="col-31" style="background-color: #343434;">
+            <span class="shop-item-title"><h2 class="title">Mi QLED TV 75</h2></span>
+            <img class="shop-item-image" src="m1.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price"style="font-size: 40px;">$119999.00</span><br>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+        <div class="col-31" style="background-color: #343434;">
+            <span class="shop-item-title"><h2 class="title">Redmi Smart TV X</h2></span>
+            <img class="shop-item-image" src="m2.png">
+            <div class="shop-item-details">
+                <span class="shop-item-price" style="font-size: 40px;">$33999.00</span><br>
+                <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section id="cart" class="small-container"style="background-color: #0c0c0c;">
+    <h2 class="title">CART</h2>
+    <div class="cart-row" >
+        <span class="cart-item cart-header cart-column">ITEM</span>
+        <span class="cart-price cart-header cart-column">PRICE</span>
+        <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+    </div>
+    <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+<div id="contact"class="small-container">
+
+    <center>
+        <h1 class="title">Connect With Us</h1></center>
+    
+    
+    <div class="contact-box">
+        <div class="contact-left">
+            <h3 class="h3flex">Send your request</h3>
+            <form>
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Name</label>
+                        <input type="text" placeholder="Adrija Deb">
+                    </div>                        
+                    <div class="input-group">
+                        <label>Phone</label>
+                        <input type="number" placeholder="+91 9061545834">
+                    </div>
+                </div>                    
+                   
+                <div class="input-row">
+                    <div class="input-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="debadrija@gmail.com">
+                    </div>                        
+                    <div class="input-group">
+                        <label>Subject</label>
+                        <input type="text" placeholder="Food Ordered">
+                    </div>
+                </div>
+                <label>Message</label>
+                <textarea rows="3" placeholder="Your Message"></textarea>
+                <button type="submit">SEND MAIL</button>
+            </form>
+        </div>
+        <div class="contact-right">
+            <h3>Reach Us</h3>
+            <table>
+                <tr>
+                    <td>Email</td>
+                    <td>foodtune12@gmail.com</td>
+                </tr>                    
+                <tr>
+                    <td>Phone</td>
+                    <td>+91 933 005 6876</td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>INC Compound, <br>Barasat - Kolkata <br>WestBengal - India</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+</div>
+<div id="about"class="about-section">
+    <div class="inner-width">
+      <h1 class="title">About Us</h1>
+     
+      <div class="about-section-row">
+        <div class="about-section-col">
+          <div class="about">
+              <center> <img src="img/ab9ff5ce9c02460dbc3ad5ab6f1eae1b.png"></center>
+              <br>
+              <br>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga provident ea hic, neque amet sequi temporibus iure aliquid placeat inventore. Quae dolores dolore, cum nulla quas ipsum facere maxime, necessitatibus!
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga provident ea hic, neque amet sequi temporibus iure aliquid placeat inventore. Quae dolores dolore, cum nulla quas ipsum facere maxime, necessitatibus!
+            </p>
+            <a href="#">Read More</a>
+          </div>
+        </div>
+        <div class="about-section-col">
+          <div class="row">
+            <div class="col-4">
+              <div class="title1">Brand Ratings</div>
+              <div class="progress">
+                <div class="progress-bar p1"><span>90%</span></div>
+              </div>
+            </div>
+            
+            </div>
+            <div class="row">
+                <div class="col-4">
+                  <div class="title1">Brand Equity</div>
+                  <div class="progress">
+                    <div class="progress-bar p2"><span>70%</span></div>
+                  </div>
+                </div>
+                
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                      <div class="title1">Brand Value</div>
+                      <div class="progress">
+                        <div class="progress-bar p3"><span>50%</span></div>
+                      </div>
+                    </div>
+                    
+                    </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="account"class="small-container">
+    <center> <img class="progress1" src="Web_Awards_image_1080x.png"></center>
+    <div class="small-container">
+        <center>
+  </div>
+  
+        <h1 class="title">Register Now</h1>
+    <div class="form-container">
+                    
+        <div class="form-btn">
+            <span onclick="login()">Login</span>
+            <span onclick="register()">Register</span>
+            <hr id="Indicator">
+        </div>
+        <div class="img-01">
+            <img src="018.png" id="image" alt="User" />
+        </div>
+        <form id="LoginForm">
+            <input type="text" placeholder="User Name">
+            <input type="password" placeholder="Password">
+            <button type="submit" class="btn">Login</button>
+            <a href="" class="fp">Forgot password</a>
+        </form> 
+        <form id="RegForm">
+            <input type="text" placeholder="User Name">
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button type="submit" class="btn">Register</button> 
+        </form>
+    </div></center>
+</div>
+
+
+<div class="testimonial">
+    <div class="small-container">
+        
+        <center><i class="fa fa-quote-left"></i><h1 class="title">In the Peers</h1></center>
+        <div class="row">
+            
+            <div class="col-3"style="background-color: #343434;">
+                <i class="fa fa-quote-left"></i>
+                <p>Wearable technology is in trend and smart band is one of those.
+                     It is a gadget that is worn around the wrist which enables an individual to 
+                     keep a track of information, entertainment, personal fitness level and much more. 
+                    </p>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+        
+                    </div>
+                    <img src="010.JPG">
+                    <h3>Minarva Das</h3>
+            </div>
+            <div class="col-3"style="background-color: #343434;">
+                <i class="fa fa-quote-left"></i>
+                <p>Wearable technology is in trend and smart band is one of those.
+                     It is a gadget that is worn around the wrist which enables an individual to 
+                     keep a track of information, entertainment, personal fitness level and much more. 
+                    </p>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+        
+                    </div>
+                    <img src="008.JPG">
+                    <h3>Antara Ghosh</h3>
+            </div>
+            <div class="col-3" style="background-color: #343434;">
+                <i class="fa fa-quote-left"></i>
+                <p>Wearable technology is in trend and smart band is one of those.
+                     It is a gadget that is worn around the wrist which enables an individual to 
+                     keep a track of information, entertainment, personal fitness level and much more. 
+                    </p>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+        
+                    </div>
+                    <img src="009.JPG">
+                    <h3>Bishal Nandy</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-godrej.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-philips.png">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios Mobile Phone</p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="img/ab9ff5ce9c02460dbc3ad5ab6f1eae1b.png">
+                <p>Our Purpose Is to Substainly Make the Pleasure and Benefits of Shopping Accessible to
+                    the Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                    <br>
+                    <li><div>
+                        <a href="#" class="fa fa-facebook" width="100"></a>&nbsp &nbsp &nbsp
+                        <a href="#" class="fa fa-instagram"></a>&nbsp &nbsp &nbsp
+                        <a href="#" class="fa fa-twitter"></a>&nbsp &nbsp &nbsp
+                        <a href="#" class="fa fa-youtube"></a>
+                    </div></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright &copy; 2021 The BIG BISHAL Web Development.</p>
+    </div>
+</div>
+
+
+<!------------js for toggle menu------>
+<script>
+    var MenuItems= document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+    
+    if(MenuItems.style.maxHeight == "0px")
+    {
+    MenuItems.style.maxHeight = "200px";
+
+    }
+    else{
+    MenuItems.style.maxHeight = "0px";
+
+    }
+
+        
+    }
+</script>
+</body>
+<script>
+    var LoginForm=document.getElementById("LoginForm");
+    var RegForm=document.getElementById("RegForm");
+    var Indicator=document.getElementById("Indicator");
+
+    function register()
+    {
+        RegForm.style.transform = "translateX(0px)";
+        LoginForm.style.transform = "translateX(0px)";
+        Indicator.style.transform = "translateX(110px)";
+    }
+
+    function login()
+    {
+        RegForm.style.transform = "translateX(300px)";
+        LoginForm.style.transform = "translateX(300px)";
+        Indicator.style.transform = "translateX(-10px)";
+    }
+</script>
+
